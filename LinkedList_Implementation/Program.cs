@@ -24,6 +24,10 @@ namespace LinkedList_Implimentation
             //Console.WriteLine("Serach elment");
             //list.Search(30);
             //list.Display();
+            Console.WriteLine("After deleting 40");
+            list.Delete(40);
+            list.Display();
+
 
         }
     }
