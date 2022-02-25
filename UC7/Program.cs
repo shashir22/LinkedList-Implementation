@@ -18,6 +18,10 @@ namespace LinkedList_Implimentation
             list.RemoveLastNode();
             Console.WriteLine("The list after removing last node is : ");
             list.Display();
+            Console.WriteLine("Serach elment");
+            list.Search(30);
+            list.Display();
+
         }
     }
 }
