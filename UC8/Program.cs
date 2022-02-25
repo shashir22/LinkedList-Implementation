@@ -15,12 +15,15 @@ namespace LinkedList_Implimentation
             list.InsertAtParticularPosition(2, 30);
             Console.WriteLine("The list after inserting 30 is : ");
             list.Display();
-            list.RemoveLastNode();
-            Console.WriteLine("The list after removing last node is : ");
+            list.InsertAtParticularPosition(3, 40);
+            Console.WriteLine("The list after inserting 40 is :  ");
             list.Display();
-            Console.WriteLine("Serach elment");
-            list.Search(30);
-            list.Display();
+            //list.RemoveLastNode();
+            //Console.WriteLine("The list after removing last node is : ");
+            //list.Display();
+            //Console.WriteLine("Serach elment");
+            //list.Search(30);
+            //list.Display();
 
         }
     }
